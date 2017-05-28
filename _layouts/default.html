@@ -7,11 +7,15 @@
 </head>
 
 <body>
+{% include gtm_noscript.html %}
 
-<div class="content container">
+{% include top_menu.html %}
+
+<div class="column row">
   {{ content }}
+
+  {% include footer.html %}
 </div>
 
-{% include gtm_noscript.html %}
 </body>
 </html>
