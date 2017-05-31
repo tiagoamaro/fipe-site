@@ -27,11 +27,7 @@ layout: default
 </div>
 
 <div class="row">
-  <div class="medium-4 columns">
-    {% include ads/pages.html %}
-  </div>
-
-  <div class="medium-8 columns">
+  <div class="medium-12 columns">
     <h2>Passo a Passo</h2>
 
     <ol>
@@ -57,6 +53,8 @@ layout: default
         Selecione a Marca, Modelo e Ano do seu carro
 
         <img src="/public/images/cars/cars-step-4.png" alt="Consultar Preços de Carros, passo 4">
+
+        {% include ads/text_banner.html %}
       </li>
       <li>
         Pronto! O preço do veículo aparecerá na sua tela
@@ -64,5 +62,9 @@ layout: default
         <img src="/public/images/cars/cars-step-5.png" alt="Consultar Preços de Carros, passo 5">
       </li>
     </ol>
+  </div>
+
+  <div class="medium-12 columns text-center">
+    {% include ads/text_banner.html %}
   </div>
 </div>
